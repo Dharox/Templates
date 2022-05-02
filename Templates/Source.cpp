@@ -34,9 +34,9 @@ int Half(int num)
 
 int main()
 {
-	double a = 7.0;
-	float b = 5.0f;
-	int c = 3;
+	double a = 37.0;
+	float b = 18.5f;
+	int c = 17;
 
 	cout << Half(a) << endl;
 	cout << Half(b) << endl;
