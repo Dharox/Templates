@@ -20,6 +20,17 @@ T Half(T num)
 	return answer;
 }
 
+int Half(int num)
+{
+	float unrounded;
+	int answer;
+
+	unrounded = static_cast<float>(num) / 2.0f;
+
+	answer = round(unrounded);
+
+	return answer;
+}
 
 int main()
 {
